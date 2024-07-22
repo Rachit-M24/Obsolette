@@ -1,0 +1,53 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"); */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  position: absolute;
+  top: 2%;
+  left: 35%;
+  width: 30%;
+  padding: 6px 0px;
+  border-radius: 15px;
+  background-color: rgba(254, 252, 249, 0.725);
+  box-shadow: 1px 2px 4px rgba(33, 32, 32, 0.725);
+}
+.navElem {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navElem li {
+  font-size: 20px;
+  font-weight: 700;
+}
+#loader {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  transition: all ease 0.5s;
+}
+.reveal .parent {
+  display: block;
+  overflow: hidden;
+}
+.reveal .parent .child {
+  display: inline-block;
+}
+.parent .child span {
+  display: block;
+}
+#loader .reveal {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  font-weight: 600;
+  color: #fff;
+}

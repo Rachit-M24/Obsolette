@@ -1,0 +1,42 @@
+.field-card {
+  display: none;
+  background-position: center;
+  background-size: cover;
+}
+.names:hover {
+  background-color: lightgray;
+}
+.field-card {
+  position: fixed;
+  height: 25vw;
+  width: 20vw;
+  top: 15%;
+  left: 50%;
+  z-index: 10;
+
+  /* background: rgba(36, 36, 36, 0.1); */
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.field-box:hover .glass {
+  display: none;
+}
+
+/* .field-box .glass::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+} */
+.field-box .glass svg {
+  font-size: 2.5em;
+  fill: #fff;
+}
