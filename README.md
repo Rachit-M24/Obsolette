@@ -22,21 +22,23 @@ To run this project locally, follow these steps:
 ```
    git clone https://github.com/your-username/obselette.git
 ```
-Navigate to the project directory:
+
+2. **Navigate to the project directory:**
 ```
 cd app-name
 ```
-Install dependencies:
+
+3. **Install dependencies:**
 ```
 npm install
 ```
 
-Start the development server:
+4. **Start the development server:**
 ```
 npm run dev
 ```
 
-Open your browser and visit:
+5. **Open your browser and visit:**
 ```
 http://localhost:3000
 ```
