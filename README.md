@@ -19,10 +19,9 @@ To run this project locally, follow these steps:
 ### Steps
 
 1. **Clone the repository:**
-   ```bash
+```
    git clone https://github.com/your-username/obselette.git
 ```
-
 Navigate to the project directory:
 ```
 cd app-name
