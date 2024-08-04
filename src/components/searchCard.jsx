@@ -4,14 +4,14 @@ import "../styles/SearchCard.css";
 const searchCard = ({ title, image, tags, category, id }) => {
   return (
     <>
-      <div className="card-main m-0  " key={id}>
+      <div className="card-main " key={id}>
         <a href="" className="secondary_container ">
-          <div className="card  ">
+          <div className="card">
             <img className="foodImg" src={image} />
             <div className="textBox">
-              <p className="text head">{title}</p>
+              <p className="texthead">{title}</p>
               <span>{tags}</span>
-              <p className="text price">{category}</p>
+              <p className="textprice">{category}</p>
             </div>
           </div>
         </a>
